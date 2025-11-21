@@ -13,6 +13,6 @@ phases:
     post_build:
         commands:
             -echo 4
-    artifacts:
-      files:
+artifacts:
+    files:
         -artists.csv
