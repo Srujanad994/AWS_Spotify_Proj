@@ -2,13 +2,17 @@ version : 0.1
 phases:
 
     install:
-        echo 1
+        commands:
+            -echo 1
     pre-build:
-        echo 2
+        commands:
+            -echo 2
     build:
-        echo 3 
+        commands:
+            -echo 3 
     post-build:
-        echo 4
+        commands:
+            -echo 4
     artifacts:
       files:
-        artists.csv
+        -artists.csv
