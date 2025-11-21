@@ -8,4 +8,4 @@ post-build:
     echo 4
 artifacts:
   files:
-    
+    artists.csv
